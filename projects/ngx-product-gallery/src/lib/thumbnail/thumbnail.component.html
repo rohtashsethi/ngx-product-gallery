@@ -1,0 +1,5 @@
+<div class="thumbnail-list">
+    @for (image of images(); track image.id) {
+        <img [src]="image.thumbnail" alt="Gallery Image" />
+    }
+</div>

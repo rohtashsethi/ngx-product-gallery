@@ -1,15 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { IImage } from './ngx-product-gallery.model';
+import { ThumbnailComponent } from './thumbnail/thumbnail.component';
 
 @Component({
-  selector: 'lib-ngx-product-gallery',
-  imports: [],
-  template: `
-    <p>
-      ngx-product-gallery works!
-    </p>
-  `,
-  styles: ``
+  selector: 'ngx-product-gallery',
+  standalone: true,
+  imports: [ThumbnailComponent],
+  templateUrl: './ngx-product-gallery.component.html',
+  styleUrls: ['./ngx-product-gallery.component.css']
 })
 export class NgxProductGalleryComponent {
-
+  readonly images = input.required<IImage[]>();
 }
