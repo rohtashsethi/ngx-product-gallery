@@ -28,6 +28,8 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    height: 62vh;
 }
 
 h1 {
@@ -44,6 +46,12 @@ h1 {
 p {
     margin: 0;
     color: var(--gray-700);
+}
+
+.logo-row {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
 }
 
 main {
@@ -76,9 +84,9 @@ main {
 }
 
 .divider {
-    width: 1px;
+    width: 2px;
     background: var(--red-to-pink-to-purple-vertical-gradient);
-    margin-inline: 0.5rem;
+    margin-inline: 2rem;
 }
 
 .pill-group {
