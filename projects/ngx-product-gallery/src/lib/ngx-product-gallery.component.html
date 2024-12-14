@@ -1,1 +1,3 @@
-<ngx-thumbnail [images]="images()"></ngx-thumbnail>
+<ngx-thumbnail [images]="images()" (selected)="spotlightImage($event)"></ngx-thumbnail>
+
+<ngx-spotlight [image]="selectedImage()"></ngx-spotlight>

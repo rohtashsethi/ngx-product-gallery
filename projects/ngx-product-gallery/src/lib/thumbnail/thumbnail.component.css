@@ -1,8 +1,7 @@
 :host {
     display: inline-block;
-    height: calc(100vh - 2rem);
+    height: 60vh;
     overflow-y: auto;
-    padding: 1rem;
 
     .thumbnail-list {
         display: flex;
@@ -11,8 +10,8 @@
     }
 
     img {
-        width: 100px;
-        height: 100px;
+        width: 64px;
+        height: 64px;
         cursor: pointer;
     }
 }

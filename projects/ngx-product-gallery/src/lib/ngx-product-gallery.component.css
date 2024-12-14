@@ -1,3 +1,7 @@
 :host {
+    display: inline-flex;
     overflow: hidden;
+    padding: 1rem;
+    gap: 1rem;
+    border: 1px solid #eaeaea;
 }

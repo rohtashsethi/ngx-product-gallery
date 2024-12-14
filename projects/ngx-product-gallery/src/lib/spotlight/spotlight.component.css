@@ -1,0 +1,20 @@
+:host {
+    img {
+        height: 60vh;
+        cursor: crosshair;
+    }
+
+    .zoomed-view {
+        position: absolute;
+        height: calc(100vh - 2rem);
+        width: calc(100vh - 2rem);
+        pointer-events: none;
+        z-index: 10;
+        background-size: 200%;
+        background-repeat: no-repeat;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        top: 1rem;
+        right: 1rem;
+    }
+}

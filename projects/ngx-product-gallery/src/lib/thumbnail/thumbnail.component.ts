@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 import { IImage } from '../ngx-product-gallery.model';
 
 @Component({
@@ -10,4 +10,9 @@ import { IImage } from '../ngx-product-gallery.model';
 })
 export class ThumbnailComponent {
   readonly images = input.required<IImage[]>();
+  readonly selected = output<IImage>();
+
+  onSelected(item: IImage): void {
+    this.selected.emit(item);
+  }
 }

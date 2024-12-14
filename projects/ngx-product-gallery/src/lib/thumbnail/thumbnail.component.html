@@ -1,5 +1,5 @@
 <div class="thumbnail-list">
     @for (image of images(); track image.id) {
-        <img [src]="image.thumbnail" alt="Gallery Image" />
+        <img [src]="image.thumbnail" alt="Gallery Image" (click)="onSelected(image)" />
     }
 </div>
