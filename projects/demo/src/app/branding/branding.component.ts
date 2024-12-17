@@ -3,7 +3,7 @@ import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-branding',
-  imports: [RouterLink],
+  imports: [],
   templateUrl: './branding.component.html',
   styleUrl: './branding.component.scss'
 })

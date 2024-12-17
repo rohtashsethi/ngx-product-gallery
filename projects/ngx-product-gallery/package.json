@@ -1,6 +1,19 @@
 {
   "name": "ngx-product-gallery",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "A sleek Angular library for building customizable product galleries.",
+  "main": "dist/index.js",
+  "keywords": ["angular", "product gallery", "angular19", "e-commerce"],
+  "author": "Rohtash Sethi <rohtash.sethi@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rohtashsethi/ngx-product-gallery"
+  },
+  "bugs": {
+    "url": "https://github.com/rohtashsethi/ngx-product-gallery/issues"
+  },
+  "homepage": "https://github.com/rohtashsethi/ngx-product-gallery#readme",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0"

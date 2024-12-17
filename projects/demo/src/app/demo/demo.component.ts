@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { IImage } from '../../../../ngx-product-gallery/src/lib/ngx-product-gallery.model';
-import { NgxProductGalleryComponent } from '../../../../ngx-product-gallery/src/public-api';
 import { BrandingComponent } from '../branding/branding.component';
+import { IImage, NgxProductGalleryComponent } from 'ngx-product-gallery';
 
 @Component({
   selector: 'app-demo',

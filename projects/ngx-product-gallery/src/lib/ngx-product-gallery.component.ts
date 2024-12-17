@@ -23,6 +23,5 @@ export class NgxProductGalleryComponent {
 
   spotlightImage(item: IImage): void {
     this.selectedImage.set(item);
-    console.log(item);
   }
 }
